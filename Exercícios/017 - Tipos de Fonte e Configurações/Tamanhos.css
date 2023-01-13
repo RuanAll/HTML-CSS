@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*Medidas Absolutas:
+cm(centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(paica).
+
+Medidas Relativas:
+em(tamanho atual da fonte), ex(altura de X de uma fonte), rem, vw(largura da viewport/tamanho da tela), vh(altura da viewport), %. 
+
+Recomendados: px e em. 
+1em = 16px
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{ /*configurações de fonte um por um*/
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
+    /*tamanho padrão*/
+
+    font-weight: normal;
+    /*Peso da Fonte
+    lighter = 100
+    normal = 400
+    bold = 700
+    bolder = 800
+    */
+
+    font-style: italic;
+    /*estilo da fonte*/
+}
+
+h1{/*shorthand (configurações de fonte numa só linha)*/
+
+    /*Seguir a ordem:
+    font-style -> font-weight -> font-size -> font-family*/
+    font: italic bolder 3em 'Work sans',sans-serif;   
+}
+
+h2{
+    font-size: 1.8em;
+    
+    text-decoration: underline;
+    /*sublinhado*/
+}

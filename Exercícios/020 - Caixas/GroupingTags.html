@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags = tags de agrupamento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 3px 3px 9px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 0px;
+            box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.356);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin-top: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        div#bola2{
+            margin: -110px 0px 0px 135px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        div#bola3{
+            margin: -100px 0px 0px 270px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        div#bola4{
+            margin: -100px 0px 0px 405px;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#"> Link01</a>
+            <a href="#"> Link02</a>
+            <a href="#"> Link03</a>
+            <a href="#"> Link04</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o País</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem iure similique dicta, non sint id magni voluptas, neque provident repellendus deserunt tenetur, fugiat illum aliquam eligendi. Rerum possimus ratione odit.</p>
+                <aside>
+                    <p>Artigo escrito por fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <div id="bola"></div>
+    <div id="bola2"></div>
+    <div id="bola3"></div>
+    <div id="bola4"></div>
+
+    <footer>
+        <p>Desenvolvido por Mim</p>
+    </footer>
+
+    
+
+</body>
+</html>

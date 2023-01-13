@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+
+/*site usado: dafonte.com*/
+@font-face {
+    font-family: 'Pirata';
+    src: url(Fontes/PirataOne-Regular.ttf) format(truetype);
+    font-size: normal;
+    font-weight: normal;
+    /*
+    Tipos de Format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-att (Apple Advanced Typography)
+    - svg
+    */
+}
+
+body{
+    font-family: 'Pirata', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+h1{
+    font-family: 'Pirata';
+    font-size: 4em;
+    text-align: center;
+    font-weight: normal;
+}

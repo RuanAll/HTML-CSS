@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos e Áudios</title>
+</head>
+<body>
+    <h1>Colocando áudio</h1>
+    <p>Vamos aprender a colocar audios no site</p>
+    <!-- <audio src="Audios/audio1.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" controls>
+        <source src="Audios/audio1.ogg" type="">
+        <source src="Audios/audio1.mp3" type="audio/mpeg">
+        <source src="Audios/audio1.wav" type="">
+        <p>Caso seu navegador nao rode o áudio, <a href="Audios/audio1.mp3">clique aqui para baixar!</a></p>
+    </audio>
+
+    <hr>
+
+    <h1>Colocando Vídeos</h1>
+    <p>Como colocar vídeos no seu site</p>
+    <h2>Video do Cliente(baixado)</h2>
+    <video width="500" height="315" poster="Imagens/arraia2.jpg" controls>
+        <source src="Videos/Arraia.mp4" type="video/mp4">
+        <source src="Videos/Arraia.m4v" type="video/mp4">
+        <source src="Videos/Arraia.webm" type="video/webm">
+        <source src="Videos/Arraia.ogv" type="video/ogg">
+        <p>Seu navegador nao roda videos.</p>
+    </video>
+
+    <h2>Video do Youtube(linkado)</h2>
+    <iframe width="500" height="315" src="https://www.youtube.com/watch?v=l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Video do Vimeo(Linkado)</h2>
+    <iframe src="https://player.vimeo.com/video/453612864?h=2da5689b9a&color=ff790f&badge=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

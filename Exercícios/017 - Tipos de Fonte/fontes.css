@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+h1{
+    text-align: center;/*Centralizar texto*/
+}
+
+p{
+    text-align: justify; /*ajustar parágrafo*/
+    text-indent: 20px; /*Espaçamento do parágrafo*/
+}

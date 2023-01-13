@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            width: 300px;
+        }
+
+        div > img {
+            display: none;
+        }
+        
+        div:hover > img{ /* > = Filho*/
+            display: block;
+            width: 300px;
+        }
+
+        div:hover {
+            color: red;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Passe o Mouse Aqui!</h1>
+        <img src="imagem/1f595-1f3fb.png" alt="imagem teste">
+    </div>
+</body>
+</html>
