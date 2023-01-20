@@ -19,6 +19,7 @@
         td{
             border: 1px solid black;
             width: 200px;
+            height: 50px;
             padding-left: 5px;
         }
         .preto{
@@ -28,6 +29,16 @@
         .dado{
             background-color: aqua;
             color: black;
+        }
+        #dir{
+            text-align: right;
+        }
+        #meio{
+            text-align: center;
+        }
+        #bot{
+            text-align: center;
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -43,11 +54,11 @@
     <table>
         <tr class="preto">
             <td class="dado">A1</td>
-            <td>B1</td>
-            <td>C1</td>
+            <td id="dir">B1</td>
+            <td id="bot">C1</td>
         </tr>
         <tr class="branco">
-            <td>A2</td>
+            <td id="meio">A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
