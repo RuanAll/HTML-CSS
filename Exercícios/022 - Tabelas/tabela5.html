@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td, th{
+            border: 1px solid black;
+            width: 200px;
+            height: 50px;
+            padding-left: 5px;
+            text-align: center;
+        }
+        .gray{
+            background-color: lightgray;
+        }
+        .red{
+            background-color: lightcoral;
+        }
+        .blue{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando Tabelas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi possimus sed enim. Temporibus tenetur dolor id fuga quaerat aperiam quos facilis quae dolorem eos, tempora, nam qui voluptatibus ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt natus quo molestias eos, non adipisci dignissimos excepturi ipsa et magnam perspiciatis dolorem, exercitationem sit dolore, iure aperiam possimus aspernatur alias.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus unde vero reprehenderit praesentium tempore voluptatem possimus inventore recusandae, laudantium voluptas facilis veniam eos assumenda tenetur atque minima quo ducimus molestiae.</p>
+    
+    <!--HIERARQUIA DE TABELAS (simples)
+    TABLE = tabela
+        TABLE ROW = linha da tabela
+            TABLE HEADER = cabeçalho da tabela
+            TABLE DATA = dado da tabela
+    -->
+
+    <table>
+        <colgroup>
+        <col class="gray">
+        <col class="red">
+        <col class="blue">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="preto">
+                <td class="dado">A1</td>
+                <td id="dir">B1</td>
+                <td id="bot">C1</td>
+            </tr>
+            <tr class="branco">
+                <td id="meio">A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr class="preto">
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr class="branco">
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

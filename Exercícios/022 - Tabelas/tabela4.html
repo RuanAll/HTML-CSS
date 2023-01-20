@@ -33,6 +33,7 @@
         h1{
             text-align: center;
         }
+
     </style>
 </head>
 <body>
@@ -41,14 +42,14 @@
     <table>
         <thead>
             <tr>
-                <th id="gp">Grupo</th>
-                <th class="tt">Nomes</th>
-                <th class="tt" colspan="3">Filmes</th>
+                <th id="gp" scope="col">Grupo</th>
+                <th class="tt" scope="col">Nomes</th>
+                <th class="tt" colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th class="fem" rowspan="3">Mulheres</th>
+                <th class="fem" rowspan="3" scope="rowgroup">Mulheres</th>
                 <td class="fem">Ana Maria</td>
                 <td class="fem">Alien</td class=>
                 <td class="fem">Rambo</td>
@@ -68,7 +69,7 @@
             </tr>
 
             <tr>
-                <th class="mas" rowspan="3">Homens</th>
+                <th class="mas" rowspan="3" scope="rowgroup">Homens</th>
                 <td class="mas">Bruno Mendonça</td>
                 <td class="mas">Intocáveis</td>
                 <td class="mas">Amnésia</td>
